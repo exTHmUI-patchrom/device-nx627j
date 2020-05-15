@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/status_bar_latest_event_content" android:tag="base" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="wrap_content" android:layout_height="@dimen/notification_header_height" layout="@layout/notification_template_header" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/notification_main_column" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_content_margin_top" android:layout_marginBottom="@dimen/notification_content_margin" android:layout_marginStart="@dimen/notification_content_margin_start" android:layout_marginEnd="@dimen/notification_content_margin_end">
+        <include layout="@layout/notification_template_part_line1" />
+        <include layout="@layout/notification_template_text" />
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/notification_progress_bar_height" android:layout_marginTop="@dimen/notification_progress_margin_top" layout="@layout/notification_template_progress" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_content_margin" layout="@layout/notification_template_smart_reply_container" />
+    </LinearLayout>
+    <include layout="@layout/notification_template_right_icon" />
+</FrameLayout>

@@ -1,0 +1,42 @@
+.class public final synthetic Lcom/android/internal/telephony/uicc/euicc/-$$Lambda$EuiccCard$HBn5KBGylwjLqIEm3rBhXnUU_8U;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Lcom/android/internal/telephony/uicc/euicc/EuiccCard$ApduRequestBuilder;
+
+
+# static fields
+.field public static final synthetic INSTANCE:Lcom/android/internal/telephony/uicc/euicc/-$$Lambda$EuiccCard$HBn5KBGylwjLqIEm3rBhXnUU_8U;
+
+
+# direct methods
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/android/internal/telephony/uicc/euicc/-$$Lambda$EuiccCard$HBn5KBGylwjLqIEm3rBhXnUU_8U;
+
+    invoke-direct {v0}, Lcom/android/internal/telephony/uicc/euicc/-$$Lambda$EuiccCard$HBn5KBGylwjLqIEm3rBhXnUU_8U;-><init>()V
+
+    sput-object v0, Lcom/android/internal/telephony/uicc/euicc/-$$Lambda$EuiccCard$HBn5KBGylwjLqIEm3rBhXnUU_8U;->INSTANCE:Lcom/android/internal/telephony/uicc/euicc/-$$Lambda$EuiccCard$HBn5KBGylwjLqIEm3rBhXnUU_8U;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final build(Lcom/android/internal/telephony/uicc/euicc/apdu/RequestBuilder;)V
+    .locals 0
+
+    invoke-static {p1}, Lcom/android/internal/telephony/uicc/euicc/EuiccCard;->lambda$getEid$10(Lcom/android/internal/telephony/uicc/euicc/apdu/RequestBuilder;)V
+
+    return-void
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="?selectableItemBackground" android:duplicateParentState="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="?listPreferredItemHeightSmall" android:paddingStart="?listPreferredItemPaddingStart" android:paddingEnd="?listPreferredItemPaddingEnd">
+        <ImageView android:gravity="center" android:id="@id/icon" android:background="@drawable/global_action_icon_background" android:padding="8.0dip" android:duplicateParentState="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:scaleType="centerInside" android:layout_marginEnd="8.0dip" />
+        <FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@id/widget_frame" android:visibility="gone" android:duplicateParentState="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textAppearance="?textAppearanceListItem" android:ellipsize="end" android:id="@id/message" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>
